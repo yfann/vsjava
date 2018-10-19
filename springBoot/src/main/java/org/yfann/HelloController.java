@@ -23,6 +23,12 @@ public class HelloController {
         private final int left;
         private final int right;
         private final long answer;
+
+        public Result(int l, int r, long a){
+            left=l;
+            right=r;
+            answer=a;
+        }
     }
 
     // SQL sample
